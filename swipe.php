@@ -68,6 +68,7 @@ class swipe extends rcube_plugin
     private $rcube;
     private $list_type;
 
+    #[\Override]
     public function init()
     {
         $this->rcube = rcmail::get_instance();
